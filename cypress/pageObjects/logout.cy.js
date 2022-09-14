@@ -1,6 +1,6 @@
-class LogoutPage{
+class LogoutPage {
 
-    signOut(){
+    signOut() {
         const button = cy.get('.logout')
         button.click()
     }
